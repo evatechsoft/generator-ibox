@@ -4,12 +4,12 @@
   </a>
 </p>
 
-[![Build Status](https://travis-ci.org/FountainJS/generator-fountain-angular1.svg?branch=master)](https://travis-ci.org/FountainJS/generator-fountain-angular1)
-[![codecov](https://codecov.io/gh/FountainJS/generator-fountain-angular1/branch/master/graph/badge.svg)](https://codecov.io/gh/FountainJS/generator-fountain-angular1)
+[![Build Status](https://travis-ci.org/FountainJS/generator-ibox.svg?branch=master)](https://travis-ci.org/FountainJS/generator-ibox)
+[![codecov](https://codecov.io/gh/FountainJS/generator-ibox/branch/master/graph/badge.svg)](https://codecov.io/gh/FountainJS/generator-ibox)
 [![Slack](http://slackin.fountainjs.io/badge.svg)](http://slackin.fountainjs.io/)
 
 
-# Fountain Angular 1 Generator
+# iBox Generator
 
 [![Angular 1](http://fountainjs.io/assets/imgs/angular1.png)](https://docs.angularjs.org/guide)
 
@@ -24,7 +24,7 @@
 
 This generator is a sub-generator of the the Yeoman Fountain generator for webapps [generator-fountain-webapp](https://github.com/FountainJS/generator-fountain-webapp).
 
-## Generator Fountain Angular 1 structure
+## Generator iBox structure
 
 To take profit of the best of the Yeoman infrastructure, we heavily relies on the composability natures of the generators.
 
@@ -60,9 +60,9 @@ node --version && npm --version
 npm install -g yo
 ```
 
-##### Install `generator-fountain-angular1`:
+##### Install `generator-ibox`:
 ```
-npm install -g generator-fountain-angular1
+npm install -g generator-ibox
 ```
 
 
@@ -73,9 +73,9 @@ npm install -g generator-fountain-angular1
 mkdir my-new-project && cd my-new-project
 ```
 
-##### Run `yo fountain-angular1`, and select desired technologies:
+##### Run `yo ibox`, and select desired technologies:
 ```
-yo fountain-angular1
+yo ibox
 ```
 #### Use NPM scripts
 
@@ -108,16 +108,36 @@ Each generator has 2 options:
 - You can set the name of the generated item with `--name`
 - You can set the path of the generated item with `--dir`
 
+Available Sub Generators 
+- module
+- component
+- directive
+- service 
+- filter
+- app
+- hello
+- techs
+- todoMVC
+
 **Example:**
 
+
 ```
-yo fountain-angular1:component --name myComponent --dir components/game
+yo ibox:module --name login --dir components/login
 ```
 
-### [Start development](http://fountainjs.io/doc/usage/#use-npm-scripts)
+```
+yo ibox:component --name loginComponent --dir components/loginComponent
+```
 
+```
+yo ibox:service --name loginService --dir components/loginService
+```
 
-## [Changelog](https://github.com/FountainJS/generator-fountain-angular1/releases)
+```
+yo ibox:directive --name loginDirective --dir components/loginDirective
+```
 
-
-## [Contributing](http://fountainjs.io/doc/contributing)
+```
+yo ibox:filter --name loginFilter --dir components/loginFilter
+```
