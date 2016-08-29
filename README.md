@@ -1,19 +1,8 @@
-<p align="center">
-  <a href="http://fountainjs.io/">
-    <img alt="FountainJS" src="http://fountainjs.io/assets/imgs/fountain.png" width="200">
-  </a>
-</p>
-
-[![Build Status](https://travis-ci.org/FountainJS/generator-ibox.svg?branch=master)](https://travis-ci.org/FountainJS/generator-ibox)
-[![codecov](https://codecov.io/gh/FountainJS/generator-ibox/branch/master/graph/badge.svg)](https://codecov.io/gh/FountainJS/generator-ibox)
-[![Slack](http://slackin.fountainjs.io/badge.svg)](http://slackin.fountainjs.io/)
-
-
 # iBox Generator
 
 [![Angular 1](http://fountainjs.io/assets/imgs/angular1.png)](https://docs.angularjs.org/guide)
 
-> This Yeoman generator allows you to start an Angular1 web app with the best Developer Experience out of the box!
+> This Yeoman generator allows you to start an iBox web app with the best Developer Experience out of the box!
 
 > No matter what framework or module management you want to use, we got you covered with a cutting edge working configuration.
 
