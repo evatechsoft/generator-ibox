@@ -12,7 +12,7 @@ module.exports = <%- name %>Module;
 angular
   .module(<%- name %>Module, [])
   .component('<%- name %>Component', <%- name %>Component)
-  .directive('./<%- name %>Directive', <%- name %>Directive)
-  .factory('./<%- name %>Service', <%- name %>Service)
-  .filter('./<%- name %>Filter', <%- name %>Filter)
+  .directive('<%- name %>Directive', <%- name %>Directive)
+  .factory('<%- name %>Service', <%- name %>Service)
+  .filter('<%- name %>Filter', <%- name %>Filter)
   ;
