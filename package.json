@@ -1,11 +1,12 @@
 {
-  "name": "generator-fountain-angular1",
-  "version": "0.7.2",
-  "description": "Yeoman Fountain generator to scaffold a webapp with Angular 1 written in ES6 (Babel), TypeScript through Webpack or SystemJS including tools Gulp 4, ESLint, Browsersync and Karma",
-  "homepage": "http://fountainjs.io/",
-  "repository": "fountainjs/generator-fountain-angular1",
-  "author": "The Fountain Team",
+  "name": "generator-ibox",
+  "version": "0.7.3",
+  "description": "InsuranceInbox customised generator, may not be usable to every one",
+  "homepage": "http://www.insuranceinbox.com/",
+  "repository": "evetechsoft/generator-ibox",
+  "author": "Insurance Inbox War Room Team",
   "contributors": [
+    "Chandan Pasunoori <chandan@insuranceinbox.com> (http://www.evetechsoft.com/team.php)",
     "Matthieu Lux <matthieu.lux@gmail.com> (http://swiip.github.io/)",
     "Mehdy Dara <mdara@eleven-labs.com> (http://eleven-labs.com/)",
     "Micael Mbagira <micael.mbagira@icloud.com> (http://micaelmbagira.github.io)"
@@ -19,6 +20,8 @@
     "gulpfile",
     "fountain",
     "cli",
+    "ibox",
+    "insuranceinbox",
     "angular"
   ],
   "dependencies": {

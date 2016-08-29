@@ -1,0 +1,5 @@
+<% if (modules === 'inject') { -%>
+<% include inject/index.babel %>
+<% } else { -%>
+<% include modules/index.babel %>
+<% } -%>
